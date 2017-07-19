@@ -279,3 +279,7 @@ ul.social-icons {
 .fa-wordpress:hover {
     background-color: #21759b;
 }
+
+ul {
+  -webkit-padding-start:0px;
+}
