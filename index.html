@@ -30,13 +30,13 @@
     <script>window.jQuery || document.write('<script src="node_modules/@bower_components/jquery/dist/jquey.min.css"><\/script>')</script>
     <script src="node_modules/@bower_components/jquery/dist/jquery.min.js"></script> -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
   <script src="node_modules/@bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <!-- <script src="node_modules/@bower_components/slideout.js/dist/slideout.min.js"></script> -->
 
 
 
-  <script src="js/script.js"></script>
+  <!-- <script src="js/script.js"></script> -->
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -119,6 +119,14 @@
 
 
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script>
+    var typed = new Typed('#typed-text', {
+      stringsElement: '#typed-strings',
+      typeSpeed: 30,
+      backDelay: 2000,
+      loop: true
+    });
+  </script>
   <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 
